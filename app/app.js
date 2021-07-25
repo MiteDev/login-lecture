@@ -3,7 +3,8 @@
 //모듈
 const express = require("express");
 const app = express();
-
+const dotenv = require("dotenv"); //dotenv를 사용하면 어떤 os에서도 동일하게 환경변수 설정 가능
+dotenv.config();
 
 const PORT = 3000;
 
